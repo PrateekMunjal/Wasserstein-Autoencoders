@@ -2,7 +2,7 @@
 An implementation of Wasserstein Autoencoder. In this work, I have focused on the WAE-GAN variant. In this implementation the encoder is implemented as a dirac measure. However, the paper theoretically claims that their approach can be extended to probabilistic encoders as well. 
 
 # Model Weights 
-[Click here](https://drive.google.com/drive/folders/1l_SY9c_50km9tgqGzub8lyYMadF6Z7HX?usp=sharing)
+Model weights can be downloaded from [here](https://drive.google.com/drive/folders/1l_SY9c_50km9tgqGzub8lyYMadF6Z7HX?usp=sharing).
 In the given^ link you will find weights for each of the model trained on celebA, MNIST and CIFAR10 dataset.
 
 ## Setup
@@ -30,6 +30,6 @@ python wae-gan.py
 ```
 ## Generations
 
-MNIST            |  Celeb-A | Cifar10
-:-------------------------:|:-------------------------:|:-------------------------: 
-![](https://prateekmunjal.github.io/img/wae/generations_mnist.gif)  |  ![](https://prateekmunjal.github.io/img/wae/generations_celeba.gif) | ![](https://prateekmunjal.github.io/img/wae/generations_cifar.gif)
+MNIST            |  Celeb-A 
+:-------------------------:|:-------------------------:|
+![](https://prateekmunjal.github.io/img/wae/generations_mnist.gif)  |  ![](https://prateekmunjal.github.io/img/wae/generations_celeba.gif)
