@@ -23,13 +23,12 @@ python wae_gan.py
 ```
 
 ### Test a trained model 
-Just comment the train() function call in 
-First place the model weights in model_directory (mentioned in vae-gan_inference.py) and then:
+Just comment the train() function call and then place the model weights in model_directory (mentioned in wae_gan.py).
 ```
 python wae-gan.py 
 ```
 ## Generations
 
-MNIST            |  Celeb-A 
-:-------------------------:|:-------------------------:|
-![](https://prateekmunjal.github.io/img/wae/generations_mnist.gif)  |  ![](https://prateekmunjal.github.io/img/wae/generations_celeba.gif)
+MNIST            |  Celeb-A | Cifar10
+:-------------------------:|:-------------------------:|:-------------------------:
+![](https://prateekmunjal.github.io/img/wae/generations_mnist.gif)  |  ![](https://github.com/PrateekMunjal/WAE/blob/master/CelebA/generated-celeba.gif) | ![](https://github.com/PrateekMunjal/WAE/blob/master/CIFAR10/generations_cifar.gif)
